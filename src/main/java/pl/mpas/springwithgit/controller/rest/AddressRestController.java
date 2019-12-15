@@ -8,7 +8,7 @@ import pl.mpas.springwithgit.domain.Address;
 @RestController
 @RequestMapping("/address")
 public class AddressRestController {
-    // localhost:8080/address/my
+
     @GetMapping("/my")
     public Address getMyAddress() {
         return new Address("warsaw", "unknown", 50);
